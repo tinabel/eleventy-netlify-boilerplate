@@ -233,9 +233,11 @@ footer ul {
 }
 
 .sidebar {
+	box-sizing: border-box;
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row: 1;
+	padding: 0 1rem;
 }
 
 @media only screen and (max-width: 600px) {
