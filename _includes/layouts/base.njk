@@ -4,14 +4,14 @@
 	{% include "components/head.njk" %}
 
 	<body>
-blah
 		<header>
 			<em>
 				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
 			</em>
-			{% include "components/nav.njk" %}
 		</header>
-
+		<nav>
+			{% include "components/nav.njk" %}
+		</nav>
 		<main>
 			{{ layoutContent | safe }}
 		</main>
