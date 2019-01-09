@@ -1,5 +1,5 @@
 ---
-title: About us
+title: About
 tags:
     - nav
 navtitle: About
