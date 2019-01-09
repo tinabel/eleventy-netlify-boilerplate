@@ -24,6 +24,8 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
 }
 
 main {
@@ -96,7 +98,7 @@ header nav ul :first-child {
 	margin-left: 0;
 }
 
-header nav li {
+nav li {
 	display: inline-block;
 	margin: 0 .5em;
 }
