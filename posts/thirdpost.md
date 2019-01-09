@@ -1,23 +1,17 @@
 ---
-title: This is my third post which has a rather long title
-summary: Why contemplating our mortality can be a powerful catalyst for change
-date: 2017-01-01
+title: Buying a Graphics Tablet -- Revisited
+summary: I finally decided to take the leap on Thanksgiving (US) day and bought a tablet. After a ton of research, much deliberation, and a lot of discussion (sorry, friends who had to listen to me talk about this and obsess over the past few months), I bought a Huion GT-191. Not the coolest sounding name, but this tablet is pretty nice.
+date: 2017-11-30
 tags:
-  - post
-  - tech
-  - politics
+    - post
+    - tech
+    - art
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-```
-pre,
-code {
-	line-height: 1.5;
-}
-```
+I finally decided to take the leap on Thanksgiving (US) day and bought a tablet. After a ton of research, much deliberation, and a lot of discussion (sorry, friends who had to listen to me talk about this and obsess over the past few months), I bought a Huion GT-191\. Not the coolest sounding name, but this tablet is pretty nice.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+One fabulous thing about it is the ability to draw directly _on_ the screen. It's really helped me with detailed work, which has been indescribably nice.
 
-## Section Header
+I haven't found paralax to be a problem, but color calibration was difficult. I finally found a good compromise for my color calibration, which means that I have to sometimes check my main monitor to ensure that my work isn't too dark on either screen.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+I sacrificed on requirement: portability. This tablet is too big to really be portable. I'm still fine with this, because it forces me to settle down and really concentrate on what I'm doing. For those times when I'm away from my tablet, I've still got my old non-video tablet (just gotta fiddle with those wires), but I've found that I can concentrate on other things instead, like my trusty sketchbook.
