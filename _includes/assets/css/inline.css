@@ -2,6 +2,7 @@
 	--turkey: #FFF0EB;
 	--white: white;
 	--blue: #005287;
+	--black: #333;
 }
 
 *,
@@ -18,10 +19,11 @@ body {
 }
 
 body {
+	background-color: var(--white);
+	color: var(--black);
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	background-color: var(--white);
 }
 
 main {
