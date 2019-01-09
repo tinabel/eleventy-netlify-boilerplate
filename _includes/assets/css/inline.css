@@ -209,7 +209,6 @@ body {
 .masthead,
 .top-navigation,
 footer {
-	border: 1px solid orange;
 	grid-column-start: 1;
 	grid-column-end: 13;
 }
@@ -225,6 +224,7 @@ footer ul {
 .body {
 	grid-column-start: 1;
 	grid-column-end: 13;
+	grid-column-gap: 1rem;
 }
 
 .main-content {
