@@ -1,10 +1,10 @@
 ---
 title: Learning ES6
 summary: Learning ES6 sounds complicated, with all its arrow functions and classes and such...
-date: 2016-01-01
+date: 2018-09-05
 tags:
     - post
-    - sport
+    - ES6
 ---
 
 Learning ES6 sounds complicated, with all its arrow functions and classes and such. It's important to remember that *​ES6 is JavaScript*​, just a new version with a few new tricks. Here are some resources to help you get up to speed on the new JavaScript and some of its features.
