@@ -5,6 +5,7 @@
 	--white: white;
 	--blue: #141044;
 	--black: #333;
+	--lightblue: #8A86B1;
 }
 
 *,
@@ -217,7 +218,7 @@ footer {
 }
 
 .top-navigation {
-	background-color: #8A86B1;
+	background-color: --lightblue;
 	
 }
 
