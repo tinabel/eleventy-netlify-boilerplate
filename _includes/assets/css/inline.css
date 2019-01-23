@@ -26,7 +26,7 @@ body {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	grid-column-gap: 1rem;
-	grid-row-gap: 1rem;
+	grid-row-gap: .5rem;
 }
 
 main {
@@ -216,12 +216,18 @@ footer {
 	grid-column-end: 13;
 }
 
+.top-navigation {
+	background-color: lightblue;
+	
+}
+
 .top-navigation ul,
 footer ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	list-style: none;
+	margin: .5rem 0;
 }
 
 .body {
