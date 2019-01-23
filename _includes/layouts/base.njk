@@ -5,12 +5,12 @@
 
 <body>
 	<div class="container">
+	{% include "components/nav.njk" %}
 		<header class="masthead">
 			<em>
 				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
 			</em>
 		</header>
-		{% include "components/nav.njk" %}
 		<div class="body">
 			<div class="sidebar">
 				{% include "components/sidebar.njk" %}

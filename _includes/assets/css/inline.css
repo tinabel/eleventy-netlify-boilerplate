@@ -240,6 +240,12 @@ footer ul {
 	padding: 0 1rem;
 }
 
+margin-left {
+	margin-left: -20%;
+    transform: rotate(-5deg);
+    margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 600px) {
 
 	.main-content,
@@ -250,5 +256,9 @@ footer ul {
 
 	.sidebar {
 		grid-row-start: 2;
+	}
+
+	h2 {
+		margin-left: 0;
 	}
 }
