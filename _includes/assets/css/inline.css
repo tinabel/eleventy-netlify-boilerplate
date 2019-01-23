@@ -243,7 +243,6 @@ footer ul {
 h1, h2 {
 	margin-bottom: 2rem;
 	margin-left: -20%;
-    transform: rotate(-5deg);
 }
 
 @media only screen and (max-width: 600px) {
