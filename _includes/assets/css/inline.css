@@ -88,9 +88,10 @@ ul {
 /* Header Logo (style as h2) */
 header>em {
 	display: block;
-	font-size: 2em;
+	font-size: 2.5em;
 	margin: .67em 0;
-	font-weight: bold;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: normal;
 	font-style: normal;
 }
 
@@ -173,7 +174,7 @@ button {
 	padding: 1em;
 	margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 input,
