@@ -1,4 +1,4 @@
-<section>
+<section id="featured-posts">
 	{% for post in postslist | reverse %}
 		{% if post.data.featured %}
         <article{% if post.url == url %} data-current="current item"{% endif %}>
