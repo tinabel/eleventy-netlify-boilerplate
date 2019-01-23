@@ -245,8 +245,12 @@ footer ul {
 
 h1, h2 {
 	font-family: 'Libre Baskerville', serif;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	margin-left: -20%;
+}
+
+h3 {
+	font-family: 'Libre Baskerville', serif;
 }
 
 @media only screen and (max-width: 600px) {
