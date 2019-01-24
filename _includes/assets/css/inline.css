@@ -269,6 +269,13 @@ code {
     white-space: pre-wrap;
 }
 
+.main-content a {
+	font-weight: bold;
+}
+
+.main-content a[href]:not(:hover) {
+	text-decoration: underline;
+}
 @media only screen and (max-width: 600px) {
 
 	.main-content,
