@@ -6,6 +6,7 @@ tags:
     - post
     - JavaScript
     - jQuery
+    - Vanilla JS
     - IE11
 featured: true
 ---
@@ -52,5 +53,16 @@ getUrlParameter("http://yoururl.com?string=blah&string2=foo", "string2");
 ```
 
 Both functions take the specified url, do a regular expression search for the specified parameter, and return the value. Easy as pie.
+
+Here is the example in ES6, for those of you that may be curious:
+
+```
+const getUrlParameter = (location,name) => { 
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    let regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    let results = regex.exec(location);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+};
+```
 
 Remember, kids: drink your milk and always test your JavaScript in every browser you support. You don't want to be surprised when something like this comes back to bite you. 
