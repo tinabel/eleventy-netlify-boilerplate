@@ -1,7 +1,7 @@
 ---
 title: Getting URL parameters in IE11
 summary: IE11 is a groanfest for most developers in terms of what is and isn't supported. Among the things that isn't supported is the URL api. It makes things less than ideal when you have to split a url's parameters out and fetch a specific parameter....
-date: 2019-01-23
+date: 2019-01-24
 tags:
     - post
     - JavaScript
