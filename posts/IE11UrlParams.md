@@ -7,6 +7,7 @@ tags:
     - JavaScript
     - jQuery
     - Vanilla JS
+    - ES6
     - IE11
 featured: true
 ---
