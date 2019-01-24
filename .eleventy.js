@@ -6,6 +6,7 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 module.exports = function (eleventyConfig) {
+  // add rss plugin
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");

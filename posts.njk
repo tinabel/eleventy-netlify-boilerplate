@@ -32,7 +32,7 @@ pageName: Posts
         </h3>
         <p>
           <span class="visually-hidden">Published on</span>
-          <time datetime="{{ post.data.date }}">{{ post.data.date | dateDisplay }}</time>
+          <time datetime="{{ post.data.date }}">{{ post.data.date }}</time>
         </p>
       </header>
       <div>
@@ -51,4 +51,3 @@ pageName: Posts
   {%- endfor -%}
 </section>
 
-{% include "pagination.njk" %}
