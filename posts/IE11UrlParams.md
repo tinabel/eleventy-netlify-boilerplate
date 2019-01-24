@@ -32,7 +32,7 @@ $.urlParam = function (location, name) {
 You can call this function simply:
 
 ```
-$.urlParam("http://www.yoururl.com","yourParam");
+$.urlParam("http://yoururl.com?string=blah&string2=foo", "string2");
 ```
 
 
