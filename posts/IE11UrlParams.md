@@ -29,7 +29,7 @@ $.urlParam = function (location, name) {
 }
 ```
 
-You can call this function simply:
+You can call this function like this:
 
 ```
 $.urlParam("http://yoururl.com?string=blah&string2=foo", "string2");
