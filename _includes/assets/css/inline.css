@@ -269,11 +269,11 @@ code {
     white-space: pre-wrap;
 }
 
-.main-content a {
+.main-content article a {
 	font-weight: bold;
 }
 
-.main-content a[href]:not(:hover) {
+.main-content article a[href]:not(:hover) {
 	text-decoration: underline;
 }
 @media only screen and (max-width: 600px) {
