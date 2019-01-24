@@ -1,9 +1,11 @@
-const { DateTime } = require("luxon");
+const {
+  DateTime
+} = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
@@ -18,14 +20,14 @@ module.exports = function(eleventyConfig) {
   });
 
   // Minify CSS
-  eleventyConfig.addFilter("cssmin", function(code) {
+  eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
   // Minify JS
-  eleventyConfig.addFilter("jsmin", function(code) {
+  eleventyConfig.addFilter("jsmin", function (code) {
     let minified = UglifyJS.minify(code);
-    if( minified.error ) {
+    if (minified.error) {
       console.log("UglifyJS error: ", minified.error);
       return code;
     }
@@ -33,8 +35,8 @@ module.exports = function(eleventyConfig) {
   });
 
   // Minify HTML output
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-    if( outputPath.indexOf(".html") > -1 ) {
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+    if (outputPath.indexOf(".html") > -1) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
@@ -46,11 +48,16 @@ module.exports = function(eleventyConfig) {
   });
 
   // only content in the `posts/` directory
-  eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getAllSorted().filter(function(item) {
+  eleventyConfig.addCollection("posts", function (collection) {
+    return collection.getAllSorted().filter(function (item) {
       return item.inputPath.match(/^\.\/posts\//) !== null;
     });
   });
+
+  const pluginRss = require("@11ty/eleventy-plugin-rss");
+  module.exports = function (eleventyConfig) {
+    eleventyConfig.addPlugin(pluginRss);
+  };
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("static/img");
