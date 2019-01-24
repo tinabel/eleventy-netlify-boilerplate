@@ -26,6 +26,12 @@ $.urlParam = function (location, name) {
 }
 ```
 
+You can call this function simply:
+
+```
+$.urlParam("http://www.yoururl.com","yourParam");
+```
+
 This function takes the specified url, does a regular expression search for the specified parameter, and returns the value. Easy as pie.
 
 Remember, kids: drink your milk and always test your JavaScript in every browser you support. You don't want to be surprised when something like this comes back to bite you. 
