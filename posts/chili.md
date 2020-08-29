@@ -1,5 +1,5 @@
 ---
-title: Chorizo Chili
+title: Chorizo & Beef Chili
 summary: Chili is something near and dear to my heart. I'll always remember my mother making chili and letting it simmer for hours so that the flavors would meld together. This chili is a little different from Mom's. It's a Texas-style chili (no beans) with lots of meat and flavor from both beef and chorizo.
 date: 2020-08-29
 tags:
